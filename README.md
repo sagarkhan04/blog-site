@@ -63,4 +63,4 @@ Password:admin
 
 ## Credit
 
-- **[Al Sayeed](https://github.com/alsayeedar/)**
+- **[Sagar Khan](https://github.com/sagarkhan04/)**
