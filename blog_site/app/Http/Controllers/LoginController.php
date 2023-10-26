@@ -19,9 +19,9 @@ class LoginController extends Controller
     public function loginSubmit(Request $request) {
         $validated = $request->validate([
             "email" => ["required", "email"],
-            "password" => ["required"]
+            "password" => ["required"],
         ]);
-        
+
         if (Auth::attempt($validated)) {
             return redirect()->route("admin");
         } else {
