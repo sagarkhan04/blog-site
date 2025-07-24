@@ -29,17 +29,17 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=example
+DB_DATABASE=blog_site
 DB_USERNAME=root
 DB_PASSWORD=123445678
 ```
 - Run migration
 ```
-<!-- php artisan migrate
+php artisan migrate
 ```
 - Seed databse
 ``` -->
-php artisan db:seed
+ php artisan db:see
 ```
 - Start server
 ```
